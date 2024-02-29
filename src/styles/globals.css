@@ -14,3 +14,13 @@
   --clr-accent-04: rgba(253, 222, 144, 1);
   --clr-accent-05: rgba(249, 176, 145, 1);
 }
+
+@layer components {
+  .intro-grid {
+    @apply grid grid-rows-[2fr_1fr] gap-2;
+  }
+
+  .rounded {
+    @apply rounded-3xl;
+  }
+}
