@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* COLORS */
+  --clr-primary-01: rgba(255, 255, 255, 1);
+  --clr-primary-02: rgba(25, 25, 25, 1);
+  --clr-primary-03: rgba(25, 25, 25, 0.05);
+
+  --clr-accent-01: rgba(191, 145, 249, 1);
+  --clr-accent-02: rgba(151, 237, 170, 1);
+  --clr-accent-03: rgba(249, 176, 145, 1);
+  --clr-accent-04: rgba(253, 222, 144, 1);
+  --clr-accent-05: rgba(249, 176, 145, 1);
+}
