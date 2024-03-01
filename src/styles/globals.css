@@ -13,6 +13,8 @@
   --clr-accent-03: rgba(249, 176, 145, 1);
   --clr-accent-04: rgba(253, 222, 144, 1);
   --clr-accent-05: rgba(249, 176, 145, 1);
+
+  --max-width: 1240px;
 }
 
 @layer components {
