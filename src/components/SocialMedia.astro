@@ -1,0 +1,26 @@
+---
+import { Image } from 'astro:assets';
+
+type Props = {
+  image: ImageMetadata;
+  alt: string;
+  fanNumbers: string;
+  url: string;
+  fanType: 'Subscribers' | 'Followers';
+};
+
+const { image, alt, fanNumbers, url, fanType } = Astro.props;
+---
+
+<div class='grid grid-rows-2 text-left'>
+  <div class='flex gap-4 items-center mb-1'>
+    <Image src={image} alt={alt} class={'w-16'} />
+    <div>
+      <h3 class='font-bold text-2xl'>{fanNumbers}</h3>
+      <p class='text-sm'>{fanType}</p>
+    </div>
+  </div>
+  <div>
+    <a href='/' class='text-[--clr-accent-01] hover:underline'>{url}</a>
+  </div>
+</div>
