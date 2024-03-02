@@ -1,0 +1,75 @@
+---
+import SocialMedia from './SocialMedia.astro';
+import Facebook from '../assets/socials/Facebook.png';
+import Instagram from '../assets/socials/Instagram.png';
+import Tiktok from '../assets/socials/TikTok.png';
+import Twitch from '../assets/socials/Twitch.png';
+import Twitter from '../assets/socials/Twitter.png';
+import Youtube from '../assets/socials/YouTube.png';
+---
+
+<section class='sm:max-w-[--max-width] sm:mx-auto'>
+  <div class='px-8 text-center'>
+    <h2 class='font-bold text-5xl mb-8 md:text-left md:text-[5.5rem]'>
+      Overview 👀
+    </h2>
+    <div class='flex flex-col md:flex-row gap-4 md:flex-shrink'>
+      <div
+        class='bg-[--clr-accent-01] px-6 py-20 md:px-0 container-round flex flex-col items-center justify-center'
+      >
+        <h2 class='text-[--clr-primary-01] font-bold text-8xl text-ellipsis'>240K</h2>
+        <p class='text-[--clr-primary-01] font-bold w-3/4 mx-auto'>
+          Total Reach Across All Media & Platforms
+        </p>
+      </div>
+      <div class='pt-10 container-round bg-[--clr-primary-03] sm:flex sm:justify-center md:flex-grow md:px-6 lg:px-10'>
+        <div
+          class='grid justify-center gap-2 sm:gap-10 sm:grid-cols-2 md:flex-grow lg:grid-rows-2 lg:grid-cols-3 lg:gap-4'
+        >
+          <SocialMedia
+            image={Twitch}
+            alt='twitch icon'
+            fanNumbers='21,000'
+            fanType={'Followers'}
+            url='twitch.tv/yourname'
+          />
+          <SocialMedia
+            image={Youtube}
+            alt='youtube icon'
+            fanNumbers='21,000'
+            fanType={'Subscribers'}
+            url='youtube.com/yourname'
+          />
+          <SocialMedia
+            image={Tiktok}
+            alt='tiktok icon'
+            fanNumbers='21,000'
+            fanType={'Followers'}
+            url='tiktok.com/yourname'
+          />
+          <SocialMedia
+            image={Instagram}
+            alt='instagram icon'
+            fanNumbers='21,000'
+            fanType={'Followers'}
+            url='instagram.com/yourname'
+          />
+          <SocialMedia
+            image={Twitter}
+            alt='twitter icon'
+            fanNumbers='21,000'
+            fanType={'Followers'}
+            url='x.com/yourname'
+          />
+          <SocialMedia
+            image={Facebook}
+            alt='facebook icon'
+            fanNumbers='21,000'
+            fanType={'Followers'}
+            url='facebook.com/yourname'
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
