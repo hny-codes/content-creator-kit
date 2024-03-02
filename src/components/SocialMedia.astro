@@ -12,11 +12,11 @@ type Props = {
 const { image, alt, fanNumbers, url, fanType } = Astro.props;
 ---
 
-<div class='grid grid-rows-2 text-left'>
-  <div class='flex gap-4 items-center mb-1'>
+<div class='grid grid-rows-2 text-left lg:justify-center'>
+  <div class='flex gap-4 items-center'>
     <Image src={image} alt={alt} class={'w-16'} />
     <div>
-      <h3 class='font-bold text-2xl'>{fanNumbers}</h3>
+      <h3 class='font-bold text-2xl lg:text-3xl'>{fanNumbers}</h3>
       <p class='text-sm'>{fanType}</p>
     </div>
   </div>
