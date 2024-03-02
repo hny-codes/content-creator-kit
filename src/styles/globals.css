@@ -21,6 +21,7 @@
 @layer base {
   h1,
   h2,
+  h3,
   p {
     @apply font-inter;
   }
@@ -31,7 +32,7 @@
     @apply grid grid-rows-[2fr_1fr] gap-2;
   }
 
-  .rounded {
+  .container-round {
     @apply rounded-3xl;
   }
 }
