@@ -6,7 +6,7 @@ import photo from '../assets/photo.png';
 <section class='pt-8 sm:pt-16 sm:max-w-[--max-width] sm:mx-auto'>
   <div class='px-8 sm:grid grid-cols-2 gap-4'>
     <div
-      class='bg-[--clr-primary-03] p-8 sm:px-12 lg:px-20 lg:py-16 [&>*]:mb-4 lg:[&>*]:mb-8 mb-4 rounded sm:mb-0 sm:h-[92%]'
+      class='bg-[--clr-primary-03] p-8 sm:px-12 lg:px-20 lg:py-16 [&>*]:mb-4 lg:[&>*]:mb-8 mb-4 container-round sm:mb-0 sm:h-[92%]'
     >
       <h1
         class='text-[--clr-accent-01] font-bold text-2xl sm:text-3xl lg:text-[2.7rem]'
@@ -30,15 +30,15 @@ import photo from '../assets/photo.png';
         <div>
           <Image src={photo} alt={'My Name'} />
         </div>
-        <div class='bg-[--clr-accent-02] w-1/3 h-full rounded'></div>
+        <div class='bg-[--clr-accent-02] w-1/3 h-full rounded-lg'></div>
       </div>
       <div class='flex gap-4'>
         <div
-          class='bg-[--clr-accent-01] w-[35%] h-3/4 rounded flex items-center justify-center'
+          class='bg-[--clr-accent-01] w-[35%] h-3/4 rounded-lg flex items-center justify-center'
         >
           <p class='text-5xl md:text-6xl lg:text-7xl pb-2 pr-1'>👋</p>
         </div>
-        <div class='bg-[--clr-accent-05] w-full h-3/4 rounded'></div>
+        <div class='bg-[--clr-accent-05] w-full h-3/4 rounded-lg'></div>
       </div>
     </div>
   </div>
