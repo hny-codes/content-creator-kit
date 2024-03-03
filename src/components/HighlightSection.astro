@@ -1,0 +1,61 @@
+---
+import { Image } from 'astro:assets';
+import Envelop from '../assets/Envelope.png';
+---
+
+<section class='sm:max-w-[--max-width] sm:mx-auto'>
+  <div class='px-8 flex flex-col gap-4 lg:flex-row'>
+    <div>
+      <h2
+        class='text-[--clr-primary-02] font-bold text-5xl md:text-[5.5rem] text-center md:text-left mb-8'
+      >
+        Past Highlights
+      </h2>
+      <div
+        class='flex flex-col gap-4 text-center lg:flex-row lg:justify-between'
+      >
+        <div
+          class='container-round bg-[--clr-primary-03] py-4 lg:py-6 lg:px-8 lg:flex-grow'
+        >
+          <p class='font-bold'>Nerd or Die</p>
+          <span>↓</span>
+          <p>Product Launch</p>
+          <span>↓</span>
+          <p class='text-[--clr-accent-02] font-bold'>350K Impressions</p>
+          <p class='text-[--clr-accent-02] font-bold'>2,000 Conversions</p>
+        </div>
+        <div
+          class='container-round bg-[--clr-primary-03] py-4 lg:py-6 lg:px-8 lg:flex-grow'
+        >
+          <p class='font-bold'>Mouse Accuracy</p>
+          <span>↓</span>
+          <p>Website Promo</p>
+          <span>↓</span>
+          <p class='text-[--clr-accent-02] font-bold'>150K Impressions</p>
+          <p class='text-[--clr-accent-02] font-bold'>2,000 New Users</p>
+        </div>
+        <div
+          class='container-round bg-[--clr-primary-03] py-4 lg:py-6 lg:px-8 lg:flex-grow'
+        >
+          <p class='font-bold'>Stream Hardware Co.</p>
+          <span>↓</span>
+          <p>Product Review</p>
+          <span>↓</span>
+          <p class='text-[--clr-accent-02] font-bold'>30K Impressions</p>
+          <p class='text-[--clr-accent-02] font-bold'>150 Conversions</p>
+        </div>
+      </div>
+    </div>
+    <div
+      class='bg-[--clr-accent-04] py-20 flex flex-col justify-center items-center text-center container-round lg:flex-grow'
+    >
+      <h3 class='font-bold text-4xl lg:text-5xl mb-4'>Let’s Talk</h3>
+      <button
+        class='flex items-center gap-6 bg-[--clr-accent-01] font-bold text-[--clr-primary-01] rounded-xl w-fit px-6 xl:px-10 py-4 hover:brightness-90 active:scale-95'
+      >
+        <Image src={Envelop} alt={''} class='w-8' />
+        <p class='text-lg xl:text-xl'>your@email.com</p>
+      </button>
+    </div>
+  </div>
+</section>
