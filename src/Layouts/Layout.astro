@@ -1,5 +1,5 @@
 ---
-
+import '../styles/globals.css';
 ---
 
 <html lang='en'>
@@ -10,7 +10,9 @@
     <meta name='generator' content={Astro.generator} />
     <title>Content Creator Site</title>
   </head>
-  <body>
-    <slot />
+  <body class='bg-[--clr-primary-01] dark:bg-[--clr-primary-02]'>
+    <main>
+      <slot />
+    </main>
   </body>
 </html>
