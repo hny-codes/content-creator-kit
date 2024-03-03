@@ -1,6 +1,7 @@
 ---
 import { Image } from 'astro:assets';
 import photo from '../assets/photo.png';
+import WaveHand from '../assets/hand-wave.png';
 ---
 
 <section class='pt-8 sm:pt-16 sm:max-w-[--max-width] sm:mx-auto'>
@@ -9,17 +10,17 @@ import photo from '../assets/photo.png';
       class='bg-[--clr-primary-03] dark:bg-[--clr-primary-04] p-8 sm:px-12 lg:px-20 lg:py-16 [&>*]:mb-4 lg:[&>*]:mb-8 mb-4 container-round sm:mb-0 sm:h-[92%]'
     >
       <h1
-        class='text-[--clr-accent-01] font-bold text-2xl sm:text-3xl lg:text-[2.7rem]'
+        class='text-[--clr-accent-01] dark:text-[--clr-accent-04] font-bold text-2xl sm:text-3xl lg:text-[2.7rem]'
       >
         Your Name
       </h1>
       <h2
-        class='text-[--clr-primary-02] dark:text-[--clr-primary-01] font-bold text-5xl sm:text-6xl md:text-[5rem] xl:text-9xl '
+        class='text-[--clr-primary-02] dark:text-[--clr-primary-01] font-bold text-5xl sm:text-6xl md:text-[5rem] xl:text-9xl'
       >
         Media Kit
       </h2>
       <p
-        class='text-[--clr-primary-02] dark:text-[--clr-primary-01]  text-sm md:text-base md:w-4/5 lg:text-xl'
+        class='text-[--clr-primary-02] dark:text-[--clr-primary-01] text-sm md:text-base md:w-4/5 lg:text-xl'
       >
         Write something about yourself here. Keep it short, simple and include a
         bit of your personality!
@@ -34,9 +35,9 @@ import photo from '../assets/photo.png';
       </div>
       <div class='flex gap-4'>
         <div
-          class='bg-[--clr-accent-01] w-[35%] h-3/4 rounded-lg flex items-center justify-center'
+          class='bg-[--clr-accent-01] w-[40%] h-3/4 rounded-lg flex items-center justify-center'
         >
-          <p class='text-5xl md:text-6xl lg:text-7xl pb-2 pr-1'>👋</p>
+          <Image src={WaveHand} alt={'Hand Waving Emote'} class='w-1/2' />
         </div>
         <div class='bg-[--clr-accent-05] w-full h-3/4 rounded-lg'></div>
       </div>

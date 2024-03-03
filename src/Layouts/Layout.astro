@@ -10,7 +10,10 @@ import '../styles/globals.css';
     <meta name='generator' content={Astro.generator} />
     <title>Content Creator Site</title>
   </head>
-  <body class='bg-[--clr-primary-01] dark:bg-[--clr-primary-02]'>
+  <body class='bg-[--clr-primary-01] dark:bg-[--clr-primary-02] relative'>
+    <span
+      class='absolute h-32 w-12 lg:w-[4.5rem] rounded-r-2xl dark:bg-[--clr-accent-04] left-0 top-16'
+    ></span>
     <main>
       <slot />
     </main>
