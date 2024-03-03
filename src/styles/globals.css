@@ -23,8 +23,9 @@
   h1,
   h2,
   h3,
-  p {
-    @apply font-inter;
+  p,
+  span {
+    @apply font-inter text-[--clr-primary-02] dark:text-[--clr-primary-01];
   }
 }
 
