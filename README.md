@@ -27,3 +27,4 @@ In addition, this project allowed me to practice my CSS further by testing mysel
 - [Fontsource Inter Font](https://fontsource.org/fonts/inter/install)
 - [Device Mockup Design File](https://www.figma.com/community/file/834992475498681487/mockups-for-modern-devices-apple-samsung-google)
 - [Tailwind Dark Mode](https://tailwindcss.com/docs/dark-mode)
+- [Fix to Cannot Find Module error for Vercel](https://stackoverflow.com/a/76543829)
